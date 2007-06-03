@@ -11,8 +11,8 @@ It gets run during login and does two things:
 
 Runtime requirements:
   cygwin-1.5.24-2
-  glib2-2.12.9-1
-  gtk2-x11-2.10.9-1
+  glib2-2.12.12-1
+  gtk2-x11-2.10.12-1
   libintl8-0.15-1
   xdg-user-dirs-0.4-1
 
@@ -25,7 +25,7 @@ Build requirements:
   cygport-0.2.11-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
-  intltool-0.35.4-1
+  intltool-0.35.5-1
   make-3.81-1
   pkg-config-0.21-1
   sed-4.1.5-2
@@ -39,15 +39,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xdg-user-dirs-gtk-0.4-X-src.tar.bz2
+  unpack xdg-user-dirs-gtk-0.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xdg-user-dirs-gtk-0.4-X.cygport all
+  cygport ./xdg-user-dirs-gtk-0.5-X.cygport all
 
 This will create:
-  /usr/src/xdg-user-dirs-gtk-0.4-X-src.tar.bz2
-  /usr/src/xdg-user-dirs-gtk-0.4-X.tar.bz2
+  /usr/src/xdg-user-dirs-gtk-0.5-X-src.tar.bz2
+  /usr/src/xdg-user-dirs-gtk-0.5-X.tar.bz2
 
 -------------------------------------------
 
@@ -55,13 +55,13 @@ Files included in the binary package:
 
   /etc/xdg/autostart/user-dirs-update-gtk.desktop
   /usr/bin/xdg-user-dirs-gtk-update.exe
-  /usr/share/doc/Cygwin/xdg-user-dirs-gtk-0.4.README
-  /usr/share/doc/xdg-user-dirs-gtk-0.4/ABOUT-NLS
-  /usr/share/doc/xdg-user-dirs-gtk-0.4/AUTHORS
-  /usr/share/doc/xdg-user-dirs-gtk-0.4/COPYING
-  /usr/share/doc/xdg-user-dirs-gtk-0.4/ChangeLog
-  /usr/share/doc/xdg-user-dirs-gtk-0.4/NEWS
-  /usr/share/doc/xdg-user-dirs-gtk-0.4/README
+  /usr/share/doc/Cygwin/xdg-user-dirs-gtk-0.5.README
+  /usr/share/doc/xdg-user-dirs-gtk-0.5/ABOUT-NLS
+  /usr/share/doc/xdg-user-dirs-gtk-0.5/AUTHORS
+  /usr/share/doc/xdg-user-dirs-gtk-0.5/COPYING
+  /usr/share/doc/xdg-user-dirs-gtk-0.5/ChangeLog
+  /usr/share/doc/xdg-user-dirs-gtk-0.5/NEWS
+  /usr/share/doc/xdg-user-dirs-gtk-0.5/README
   /usr/share/locale/de/LC_MESSAGES/xdg-user-dirs-gtk.mo
   /usr/share/locale/ja/LC_MESSAGES/xdg-user-dirs-gtk.mo
   /usr/share/locale/nb/LC_MESSAGES/xdg-user-dirs-gtk.mo
@@ -70,6 +70,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.5-1 -----
+Version bump.
 
 ----- version 0.4-1 -----
 Version bump.
