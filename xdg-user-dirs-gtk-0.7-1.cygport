@@ -1,0 +1,3 @@
+inherit gnome2
+
+DESCRIPTION="GTK xdg-user-dirs frontend"
