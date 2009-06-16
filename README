@@ -10,23 +10,24 @@ It gets run during login and does two things:
   on a set of xdg user dirs.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  glib2-2.16.5-1
-  gtk2-x11-2.12.11-1
-  libintl8-0.15-1
-  xdg-user-dirs-0.8-1
+  cygwin-1.7.0-49
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.3-1
+  libgtk2.0_0-2.16.2-1
+  libintl8-0.17-11
+  xdg-user-dirs-0.10-11
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.7-1.7.9-3
+  autoconf2.5-2.63-10
+  automake1.7-1.7.9-10
   binutils-20080624-2
-  cygport-0.4.0-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  intltool-0.40.3-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  intltool-0.40.6-1
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -54,12 +55,12 @@ Files included in the binary package:
 
   /etc/xdg/autostart/user-dirs-update-gtk.desktop
   /usr/bin/xdg-user-dirs-gtk-update.exe
-  /usr/share/doc/xdg-user-dirs-gtk-0.8/ABOUT-NLS
-  /usr/share/doc/xdg-user-dirs-gtk-0.8/AUTHORS
-  /usr/share/doc/xdg-user-dirs-gtk-0.8/COPYING
-  /usr/share/doc/xdg-user-dirs-gtk-0.8/ChangeLog
-  /usr/share/doc/xdg-user-dirs-gtk-0.8/NEWS
-  /usr/share/doc/xdg-user-dirs-gtk-0.8/README
+  /usr/bin/xdg-user-dirs-gtk-update.exe.manifest
+  /usr/share/doc/xdg-user-dirs-gtk/AUTHORS
+  /usr/share/doc/xdg-user-dirs-gtk/COPYING
+  /usr/share/doc/xdg-user-dirs-gtk/ChangeLog
+  /usr/share/doc/xdg-user-dirs-gtk/NEWS
+  /usr/share/doc/xdg-user-dirs-gtk/README
   /usr/share/locale/af/LC_MESSAGES/xdg-user-dirs-gtk.mo
   /usr/share/locale/ar/LC_MESSAGES/xdg-user-dirs-gtk.mo
   /usr/share/locale/be@latin/LC_MESSAGES/xdg-user-dirs-gtk.mo
@@ -94,23 +95,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.8-1 -----
-Version bump.
-
------ version 0.7-1 -----
-Version bump.
-
------ version 0.6-1 -----
-Version bump.
-
------ version 0.5-1 -----
-Version bump.
-
------ version 0.4-1 -----
-Version bump.
-
------ version 0.3-1 -----
-Initial release for Cygwin.
+----- version 0.8-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
