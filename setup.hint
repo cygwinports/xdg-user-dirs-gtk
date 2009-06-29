@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libgcc1 libglib2.0_0 libgtk2.0_0 libintl8 xdg-user-dirs
+requires: libgcc1 libglib2.0_0 libgtk2.0_0 libintl8 xdg-user-dirs
 sdesc: "GNOME xdg-user-dirs frontend"
 ldesc: "xdg-user-dirs-gtk is a companion to xdg-user-dirs that 
 integrates it into the Gnome desktop and Gtk+ applications.
